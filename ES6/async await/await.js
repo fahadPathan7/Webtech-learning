@@ -1,4 +1,6 @@
 // I can do the same things as nested promise chaining using async await
+// await keyword is used to wait for a promise to resolve.
+// async keyword is used to make a function asynchronous.
 
 
 const task1 = () => {
