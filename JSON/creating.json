@@ -1,0 +1,66 @@
+{
+    "students": [
+        {
+            "name": "John",
+            "age": 30,
+            "languages": [
+                "English",
+                "French",
+                "Bengali"
+            ],
+            "friends": [
+                {
+                    "id": 1,
+                    "name": "Peter",
+                    "age": 20,
+                    "languages": [
+                        "English",
+                        "Hindi",
+                        "Spanish"
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "Mark",
+                    "age": 40,
+                    "languages": [
+                        "English",
+                        "Mandarin",
+                        "Spanish"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Donald",
+            "age": 25,
+            "languages": [
+                "English",
+                "French",
+                "Bengali"
+            ],
+            "friends": [
+                {
+                    "id": 1,
+                    "name": "Peter mike",
+                    "age": 23,
+                    "languages": [
+                        "English",
+                        "Hindi",
+                        "Spanish"
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "Holland",
+                    "age": 30,
+                    "languages": [
+                        "English",
+                        "Mandarin",
+                        "Spanish"
+                    ]
+                }
+            ]
+        }
+    ]
+}
