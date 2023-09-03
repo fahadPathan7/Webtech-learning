@@ -14,3 +14,6 @@ data.students[0].name = 'Jane'; // change name from John to Jane
 console.log(data.students[0].name); // Jane
 
 
+// delete the data
+delete data.students[0].name; // delete name
+console.log(data.students[0].name); // undefined
