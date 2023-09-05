@@ -25,3 +25,13 @@ console.log(data.students[0].name); // undefined
 // add the data
 data.students[0].cgpa = 3.75; // add cgpa
 console.log(data.students[0].cgpa); // 3.75
+
+
+// stringify the data
+const stringifiedData = JSON.stringify(data);
+console.log(stringifiedData); // {"students":[{"age":30,"languages":["English","French"],"friends":[{"name":"Peter"}],"cgpa":3.75}]}
+
+
+// parse the data
+const parsedData = JSON.parse(stringifiedData);
+console.log(parsedData); // { students: [ { age: 30, languages: [ 'English', 'French' ], friends: [ [Object] ], cgpa: 3.75 } ] }
