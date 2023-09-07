@@ -1,0 +1,32 @@
+// json schema is used for validating json data.
+
+
+
+// this is json input
+
+{
+    name: "Fahad",
+    id: 1
+}
+
+
+
+
+// this is json schema
+
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "id": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "name",
+    "id"
+  ]
+}
